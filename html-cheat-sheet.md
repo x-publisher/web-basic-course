@@ -29,7 +29,7 @@
 <div class="hello"></div>
 ```
 
->div*5 ဆိုရင္
+> div*5 ဆိုရင္
 
 ```html
 <div></div>
@@ -39,7 +39,24 @@
 <div></div>
 ```
 
+> ul.mylist>li*4 ဆိုရင္
+
+```html
+<ul class="mylist">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+```
+
 ----
+
+> Mobile မွာ စာလံုးေတြ scale ၾကီးေစၿပီးအဆင္ေျပေျပျမင္ေအာင္ ေအာက္က တစ္ေၾကာင္းကိုထည့္ရပါမယ္
+```html
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ ```
+
 
 > CSS ကို `<head>` ထဲမွာပဲေရးတယ္
 #### link မခ်ိတ္ရင္
@@ -81,5 +98,6 @@
 ```html
  <!-- this is my comment -->
 ```
+> ေရးထားတဲ့ HTML ကို comment ေျပာင္းလုိရင္ HTML ကို select လုပ္ၿပီး `Command+?` ႏွိပ္ပါ။
 
 
