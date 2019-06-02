@@ -23,6 +23,12 @@
 <div id="hello"></div>
 ```
 
+> div.hello ဆိုရင္
+
+```html
+<div class="hello"></div>
+```
+
 >div*5 ဆိုရင္
 
 ```html
