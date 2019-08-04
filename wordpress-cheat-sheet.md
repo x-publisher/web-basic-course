@@ -85,5 +85,18 @@ add_theme_support( 'post-thumbnails' );
 ```
 -------
 
+### Custom Field ထည့္
+
+add new post ရဲ႔ အေပၚက screen options ထဲမွာ custom field ကိုသြားၿပီး အမွန္ျခစ္ေပးရတယ္
+
+
+**ျပန္ေခၚသံုးမယ္ဆိုရင္**
+
+```php
+<?php echo get_post_meta(get_the_ID(), 'နာမည္', TRUE); ?>
+```
+
+-------
+
 
 
