@@ -54,7 +54,8 @@ echo get_the_author();
 ------
 ### URL မ်ား
 `get_template_directory_uri()` // theme folder URL
-`get_template_stylesheet_uri()` // style.css URL
+`get_stylesheet_directory_uri()` // style.css URL
+
 -----
 ### custom page ခ်ိတ္ျခင္း
 1. `page-{ကိုယ့္ page နာမည္}.php` တစ္ခု create လုပ္ရမယ္
