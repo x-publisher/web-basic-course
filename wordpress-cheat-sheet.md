@@ -11,9 +11,11 @@ style.css <=== style ထဲမွာ Theme နာမည္ေတြ info ေတ�
 --------
 ### wordpress loop
 ```php
- if (have_posts() ) : while (have_posts() ) : the_post(); ?>
+ <?php if (have_posts() ) : while (have_posts() ) : the_post();
+ 
   // title,content,excerpt,tags,category,author,date,permalink,author_bio
-  <?php endwhile; else : ?>
+  
+  endwhile; else : ?>
 		<p><?php esc_html_e( 'Sorry, There is no post' ); ?></p>
   <?php endif; ?>
 ```
@@ -75,8 +77,13 @@ echo get_the_author();
 `get_header()` နင့္ `get_footer()` ဆိုတာ ကိုယ္ create  လုပ္ထားတဲ့ header.php ႏွင့္ footer.php file ေတြပဲျဖစ္ပါတယ္။
 
 -------
+### Feature Image ထည့္
 
-
+Feature image ထည့္မယ္ဆို functions.php ထဲမွာ ဒီ code ေလးထည့္ရမယ္
+```php
+add_theme_support( 'post-thumbnails' ); 
+```
+-------
 
 
 
