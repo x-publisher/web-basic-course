@@ -99,11 +99,11 @@ add new post ရဲ့ အပေါ်က screen options ထဲမှာ custom 
 
 -------
 
-### Wordpress Migration ( Wordpress ရှှေ့ခွငျး )
+### Wordpress Migration ( Wordpress ရွှေ့ခြင်း )
 
-1. database ထုတျမယျ
-2. **wp-content** ကိုကူးမယျ
-3. **config.php** ထဲမှာ database user password တှပွေောငျးမယျ
-4. database -> wp-options ထဲက **site url** နဲ့ **home url** ကိုပွောငျးပေးရမယျ
+1. database ထုတ်မယ်
+2. **wp-content** ကိုကူးမယ်
+3. **config.php** ထဲမှာ database user password တွေပြောင်းမယ်
+4. database -> wp-options ထဲက **site url** နဲ့ **home url** ကိုပြောင်းပေးရမယ်
 
 
