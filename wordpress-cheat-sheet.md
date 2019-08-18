@@ -106,4 +106,45 @@ add new post ရဲ့ အပေါ်က screen options ထဲမှာ custom 
 3. **config.php** ထဲမှာ database user password တွေပြောင်းမယ်
 4. database -> wp-options ထဲက **site url** နဲ့ **home url** ကိုပြောင်းပေးရမယ်
 
+--------
+
+### Wordpress Pagination
+1. **posts_per_page** argument ထည့်ရမယ် `( e.g "posts_per_page" => 4 )`
+2. **paged** argument ထည့်ရမယ် `( e.g "paged" => $paged )`
+3. အောက်က **No 3** က codes ကို **endif;** အောက်မှာထည့်ပေးရမယ်
+
+#### 1
+```php
+$args = array(
+    'posts_per_page'=>4,
+);
+```
+
+#### 2
+```php
+
+$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+$args = array(
+    'paged'=> $paged,
+);
+```
+
+#### 3
+```php
+
+  $total_pages = $query->max_num_pages;
+  if ($total_pages > 1){
+      $current_page = max(1, get_query_var('paged'));
+      echo paginate_links(array(
+          'base' => get_pagenum_link(1) . '%_%',
+          'format' => '/page/%#%',
+          'current' => $current_page,
+          'total' => $total_pages,
+          'prev_text'    => __('« prev'),
+          'next_text'    => __('next »'),
+      ));
+  }  
+  
+```
+
 
