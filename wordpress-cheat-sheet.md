@@ -102,7 +102,7 @@ add new post ရဲ့ အပေါ်က screen options ထဲမှာ custom 
 ### wp_reset_postdata() 
 page တစ်ခုတည်းမှာ loop အမျိုးအစားကွဲတွေအများကြီးပါတယ်ဆို loop တစ်ခုပြီးတိုင်း wp_reset_postdata() ကိုထည့်ပေးသင့်တယ်။ ဒါမှ 
 
-
+--------
 
 ### Wordpress Migration ( Wordpress ရွှေ့ခြင်း )
 
