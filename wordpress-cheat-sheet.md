@@ -167,19 +167,19 @@ $query = new WP_Query($arg);
 
 #### category အတွက် ဖြတ်နိုင်တဲ့ argument များ
 
-cat (int): ခေါ်သုံးမယ့် category (နံပါတ်)
-category_name (string): ခေါ်သုံးမယ့် category (နာမည်)
-category__and (array): ခေါ်သုံးမယ့် category ပေါင်း (နံပါတ် အစုလိုက်)
-category__in (array): ခေါ်သုံးမယ့် category များ (နံပါတ် အစုလိုက်)
-category__not_in (array): ဖြုတ်မယ့် category များ (နံပါတ် အစုလိုက်)
+* cat (int): ခေါ်သုံးမယ့် category (နံပါတ်)
+* category_name (string): ခေါ်သုံးမယ့် category (နာမည်)
+* category__and (array): ခေါ်သုံးမယ့် category ပေါင်း (နံပါတ် အစုလိုက်)
+* category__in (array): ခေါ်သုံးမယ့် category များ (နံပါတ် အစုလိုက်)
+* category__not_in (array): ဖြုတ်မယ့် category များ (နံပါတ် အစုလိုက်)
 
 #### tag အတွက် ဖြတ်နိုင်တဲ့ argument များ
 
-tag (string): ခေါ်သုံးမယ့် tag (နာမည်)
-tag_id (int): ခေါ်သုံးမယ့် tag (နံပါတ်)
-tag__and (array): ခေါ်သုံးမယ့် tag ပေါင်း (နံပါတ်အစုလိုက်)
-tag__in (array): ခေါ်သုံးမယ့် tag များ (နံပါတ်အစုလိုက်)
-tag__not_in (array): ဖြုတ်မယ့် tag များ (နံပါတ်အစုလိုက်)
-tag_slug__and (array): ခေါ်သုံးမယ့် tag ပေါင်း (slug နာမည်အစုလိုက်)
-tag_slug__in (array): ခေါ်သုံးမယ့် tag များ (slug နာမည်အစုလိုက်)
+* tag (string): ခေါ်သုံးမယ့် tag (နာမည်)
+* tag_id (int): ခေါ်သုံးမယ့် tag (နံပါတ်)
+* tag__and (array): ခေါ်သုံးမယ့် tag ပေါင်း (နံပါတ်အစုလိုက်)
+* tag__in (array): ခေါ်သုံးမယ့် tag များ (နံပါတ်အစုလိုက်)
+* tag__not_in (array): ဖြုတ်မယ့် tag များ (နံပါတ်အစုလိုက်)
+* tag_slug__and (array): ခေါ်သုံးမယ့် tag ပေါင်း (slug နာမည်အစုလိုက်)
+* tag_slug__in (array): ခေါ်သုံးမယ့် tag များ (slug နာမည်အစုလိုက်)
 
